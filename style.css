@@ -1,0 +1,34 @@
+body
+{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.menu ul li
+{
+	display: inline-block;
+}
+
+.menu ul ul 
+{
+	display: none;
+	position: absolute;
+
+
+}
+.menu ul
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.menu #home:hover ul 
+{
+	display: block;
+}
+
+.menu #home:hover li 
+{
+	display: block;
+}
